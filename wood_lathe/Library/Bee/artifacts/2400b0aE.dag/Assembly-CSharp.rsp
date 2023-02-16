@@ -351,10 +351,10 @@
 -r:"Library/Bee/artifacts/2400b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/home/tetra/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/home/tetra/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/CubeMovement.cs"
 "Assets/Scripts/RotateCube.cs"
 "Assets/Scripts/Rotation.cs"
 "Assets/Scripts/RotationAndMovement.cs"
-"Assets/Scripts/VerticalMovement.cs"
 -langversion:9.0
 
 /deterministic

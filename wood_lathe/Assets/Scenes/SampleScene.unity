@@ -1094,7 +1094,6 @@ GameObject:
   - component: {fileID: 1245804254}
   - component: {fileID: 1245804253}
   - component: {fileID: 1245804252}
-  - component: {fileID: 1245804251}
   - component: {fileID: 1245804256}
   m_Layer: 0
   m_Name: Plate
@@ -1103,20 +1102,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1245804251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1245804249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22f1ae251f7d41cd08ac0f9b28d32301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  axis: {x: 0, y: 1, z: 0}
 --- !u!65 &1245804252
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1212,12 +1197,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1245804249}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bba048a1548d96af0bb472879837dfab, type: 3}
+  m_Script: {fileID: 11500000, guid: e78b0bf27a039d4cb8711c4c9bfd6211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  moveSpeed: 1
-  axis: {x: 0, y: 1, z: 0}
 --- !u!1 &1492592735
 GameObject:
   m_ObjectHideFlags: 0
