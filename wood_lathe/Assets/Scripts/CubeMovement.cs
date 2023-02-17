@@ -28,7 +28,7 @@ public class CubeMovement : MonoBehaviour
     {
         while (Input.GetKey(KeyCode.UpArrow))
         {
-            cubeTransform.RotateAround(cubeTransform.position, Vector3.up, 10f * Time.deltaTime);
+            cubeTransform.RotateAround(cubeTransform.position, Vector3.up, -10f * Time.deltaTime);
             cubeTransform.position += new Vector3(0f, 1f * Time.deltaTime, 0f);
             yield return null;
         }
@@ -38,7 +38,7 @@ public class CubeMovement : MonoBehaviour
     {
         while (Input.GetKey(KeyCode.DownArrow))
         {
-            cubeTransform.RotateAround(cubeTransform.position, Vector3.up, -10f * Time.deltaTime);
+            cubeTransform.RotateAround(cubeTransform.position, Vector3.up, 10f * Time.deltaTime);
             cubeTransform.position -= new Vector3(0f, 1f * Time.deltaTime, 0f);
             yield return null;
         }
